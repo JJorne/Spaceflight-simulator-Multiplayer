@@ -17,10 +17,10 @@ YES. It is 100% safe to use, operator of the server can encrypt the data for ano
 **2.** install all the nececary modules:
 
 ```pip install mega.py```
-
 ```pip install kivy```
+```pip install pyinstaller```
 
-*In some cases mega.py wont work, then do ```pip uninstall mega.py``` and then ```pip install mega```*
+*In some cases mega.py wont work, then do ```pip uninstall mega.py``` and then ```pip install mega``` or run it as administrator*
 
 **3.** download the files:
 ```git clone https://github.com/L4z4r1/Spaceflight-simulator-Multiplayer.git```
@@ -39,7 +39,7 @@ edit the ```email``` and ```password``` to your email and password for mega.nz
 
 *your working directory must be in the sfs multiplayer folder*
 
-**6.** run ```pyinstaller "~/SFS Multiplayer/Main.py" --noconfirm --onefile --console --name "SFS Multiplayer" --key "[your key]"```
+**6.** run ```pyinstaller "~/SFS Multiplayer/Main.py" --noconfirm --onefile --console --name "SFS Multiplayer"```
 in the working directory
 
 **7.** share the files with some people and enjoy!
